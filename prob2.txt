@@ -1,0 +1,25 @@
+সমস্যা: শুভেচ্ছা বার্তা তৈরি
+⚠️ ফাংশনের নাম হতে হবে generateGreeting()
+
+ধরা যাক, একটি ফেসবুক প্রোফাইল URL দুটি অংশে বিভক্ত থাকে: একটি username এবং একটি platform। যেমন john_doe@facebook.com, এখানে john_doe হলো ইউজারনেম এবং facebook.com হলো প্ল্যাটফর্ম। তোমার কাজ হলো একটি ফাংশন বানানো যা ইনপুট হিসেবে একটি ফেসবুক প্রোফাইল URL নিবে এবং একটি শুভেচ্ছা বার্তা তৈরি করবে।
+
+ফাংশনটি একটি নতুন স্ট্রিং রিটার্ন করবে যেখানে ইউজারনেম এবং প্ল্যাটফর্ম ব্যবহার করে শুভেচ্ছা বার্তা তৈরি করতে হবে।
+
+ইনপুট:
+ইনপুট হবে একটি স্ট্রিং, যা একটি ফেসবুক প্রোফাইল URL হবে (যেমন, john_doe@facebook.com)
+@ ক্যারেক্টারটি স্ট্রিংয়ে একবার থাকবে এবং এটি ইউজারনেম এবং প্ল্যাটফর্মের মাঝে থাকবে।
+
+আউটপুট:
+উদাহরণস্বরূপ, john_doe@facebook.com ইনপুট দিলে আউটপুট হবে:
+Welcome john_doe to the Facebook platform!
+
+চ্যালেঞ্জ:
+যদি ইনপুটটি একটি বৈধ URL না হয়, অর্থাৎ URL-এ @ না থাকে, তাহলে "Invalid URL" রিটার্ন করবে।
+ইনপুট/আউটপুট উদাহরণ:
+
+ইনপুট	আউটপুট
+john_doe@facebook.com	Welcome john_doe to the Facebook platform!
+jane_smith@twitter.com	Welcome jane_smith to the Twitter platform!
+alex_jones@instagram.com	Welcome alex_jones to the Instagram platform!
+tommy123@website	Welcome tommy123 to the website platform
+no_at_symbol_here.com	Invalid URL
